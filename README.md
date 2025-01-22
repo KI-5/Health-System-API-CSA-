@@ -48,10 +48,10 @@ The **Health System API** is a backend solution designed to streamline and manag
 
 ## System Design
 ### General Structure
-GET: Retrieve records or details by ID.
-POST: Add new records.
-PUT: Update existing records.
-DELETE: Remove records.
+-GET: Retrieve records or details by ID.
+-POST: Add new records.
+-PUT: Update existing records.
+-DELETE: Remove records.
 
 ###Types
 - Person Management
