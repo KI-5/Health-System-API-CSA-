@@ -46,8 +46,37 @@ The **Health System API** is a backend solution designed to streamline and manag
 
 ---
 
+## System Design
+### General Structure
+GET: Retrieve records or details by ID.
+POST: Add new records.
+PUT: Update existing records.
+DELETE: Remove records.
+
+###Types
+- Person Management
+- Patient Management
+- Doctor Management
+- Appointment Management
+- Medical Record Management
+- Prescription Management
+- Billing Management
+
+###Examples
+```
+-GET /person/{personId}
+-POST /person
+-PUT /person/{personId}
+-DELETE /person/{personId}
+```
+---
+
+
 ## Installation
 Clone the repository:
    ```bash
    git clone [https://github.com/<username>/<repository-name>.git](https://github.com/KI-5/Health-System-API-CSA-.git)
    cd <repository-name>
+You can copy this into your **README.md** file. Let me know if you need further edits! 😊
+
+
